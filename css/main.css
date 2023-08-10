@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+header .container nav {
+  font-family: "Prata", serif;
+  font-weight: 400;
+}
+
+header .container nav .navbar-brand {
+  color: white;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+header .container nav ul.float-lg-right li .btn {
+  color: black;
+  background-color: #fbe850;
+  border-radius: 1px;
+  padding: 8px 18px;
+  transition: all 0.4s;
+  border: 1px solid #fbe850;
+  font-family: "Prata", serif;
+  font-weight: 400;
+}
+
+header .container nav ul.float-lg-right li .btn:hover {
+  color: #fbe850;
+  background-color: black;
+}
+
+header .container nav ul.mx-auto li a {
+  color: #848484;
+  margin-right: 20px;
+  transition: color 0.3s;
+  font-family: "Prata", serif;
+  font-weight: 400;
+}
+
+header .container nav ul.mx-auto li a:hover {
+  color: white;
+}
+
+/*-------------------------------*/
+body {
+  background-color: black;
+}
+
+main .container .row h1 {
+  margin-top: 90px;
+  font-size: 60px;
+  color: white;
+  font-family: "Prata", serif;
+  font-weight: 400;
+}
+
+main .container .row p {
+  color: #848484;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.section-2 img {
+  margin: 10px;
+}
+
+main .section-3 .row .card {
+  background-color: black;
+  margin-left: 10px;
+}
+
+main .section-3 .row .card .card-title {
+  color: white;
+}
+
+main .section-3 .row .card .card-text {
+  color: #848484;
+  font-weight: 100;
+}
+
+main .section-3 .card .card-body {
+  font-family: "Prata", serif;
+}
+
+main .section-3 .card .card-body .card-text {
+  font-family: "prata" , serif;
+  font-size: 18px;
+  color: #848484;
+}
+
+main .section-4 {
+  background-color: #2e3038;
+}
+
+main .section-4 .container .row h3 {
+  color: white;
+  font-size: 36px;
+  font-family: "Prata", serif;
+}
+
+main .section-4 .container .row p {
+  color: #848484;
+  font-size: 18px;
+}
+
+main .section-5 .row h3 {
+  color: white;
+  font-size: 36px;
+  font-family: "Prata", serif;
+}
+
+main .section-5 .row p {
+  color: #848484;
+  font-size: 18px;
+}
+
+main .section-5 .row .btn {
+  color: black;
+  background-color: #fbe850;
+  border-radius: 1px;
+  padding: 8px 18px;
+  transition: all 0.4s;
+  border: 1px solid #fbe850;
+}
+
+main .section-5 .row .btn:hover {
+  background-color: black;
+  color: #fbe850;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #2e3038;
+}
+
+footer .container .row h4 {
+  color: white;
+  font-family: "Prata", serif;
+}
+
+footer .container .row .text-right img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.text-right {
+  text-align: right;
+}
